@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YLBasedComponent (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YLBasedComponent (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  YLBasedComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YLBasedComponent: 0faade7b076a7b2d860933add17544970f0e5740
+
+PODFILE CHECKSUM: 399e7013924670c7c03f5f840c4c37834165188c
+
+COCOAPODS: 1.10.1

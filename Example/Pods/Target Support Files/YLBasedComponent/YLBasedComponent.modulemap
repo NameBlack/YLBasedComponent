@@ -1,0 +1,6 @@
+framework module YLBasedComponent {
+  umbrella header "YLBasedComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}
